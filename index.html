@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nike</title>
+
+    <!-- Include Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+
+    <!-- Include animate.css for fancy animations -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- Include Font Awesome Icons (optional) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+
+    <!-- Include your custom CSS here -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light fixed-top animated fadeInDown"
+    >
+      <div class="container">
+        <a class="brand" href="#">Nike</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#hero">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#products">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div
+      class="jumbotron jumbotron-fluid bg-light text-white text-center animated fadeInUp"
+      id="hero"
+    >
+      <div class="container">
+        <h1 class="display-4">Welcome to Nike</h1>
+        <p class="lead">
+          We offer the best athletic gear and apparel for all your favorite
+          sports and activities.
+        </p>
+        <a href="#products" class="btn btn-primary btn-lg">Shop Now</a>
+      </div>
+    </div>
+
+    <!-- Products Section -->
+    <div class="container py-5" id="products">
+      <h2 class="text-center mb-4 animated fadeInUp">Featured Products</h2>
+      <!-- row 1 -->
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 animated fadeInUp">
+            <img
+              src="https://source.unsplash.com/400x300/?nike,1"
+              alt="Product Image"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Product Name</h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                ornare magna eros, eu pellentesque tortor vestibulum ut.
+                Maecenas non massa sem.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary btn-block">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 animated fadeInUp">
+            <img
+              src="https://source.unsplash.com/400x300/?nike"
+              alt="Product Image"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Product Name</h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                ornare magna eros, eu pellentesque tortor vestibulum ut.
+                Maecenas non massa sem.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary btn-block">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 animated fadeInUp">
+            <img
+              src="https://source.unsplash.com/400x300/?nike 1"
+              alt="Product Image"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Product Name</h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                ornare magna eros, eu pellentesque tortor vestibulum ut.
+                Maecenas non massa sem.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary btn-block">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- row 2 -->
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 animated fadeInUp">
+            <img
+              src="https://source.unsplash.com/400x300/?nike,4,shoes"
+              alt="Product Image"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Product Name</h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                ornare magna eros, eu pellentesque tortor vestibulum ut.
+                Maecenas non massa sem.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary btn-block">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 animated fadeInUp">
+            <img
+              src="https://source.unsplash.com/400x300/?nike, 5, shoes"
+              alt="Product Image"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Product Name</h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                ornare magna eros, eu pellentesque tortor vestibulum ut.
+                Maecenas non massa sem.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary btn-block">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 animated fadeInUp">
+            <img
+              src="https://source.unsplash.com/400x300/?nike,6, shoes"
+              alt="Product Image"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Product Name</h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                ornare magna eros, eu pellentesque tortor vestibulum ut.
+                Maecenas non massa sem.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary btn-block">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="container py-5" id="about">
+      <h2 class="text-center mb-4 animated fadeInUp">About Nike</h2>
+      <p class="text-justify animated fadeInUp">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare
+        magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa
+        sem. Etiam finibus odio quis feugiat facilisis. Aliquam erat volutpat.
+        In hac habitasse platea dictumst. Nam tempus velit eget quam posuere
+        cursus. Nullam vel tincidunt lacus. Quisque hendrerit, quam non maximus
+        ultricies, tellus est ultricies dui, et posuere nibh tellus nec enim. Ut
+        porta lobortis nisi, at vehicula magna malesuada eu. Aliquam erat
+        volutpat. Maecenas bibendum diam in ex volutpat, id aliquet ipsum
+        dictum.
+      </p>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="container py-5" id="contact">
+      <h2 class="text-center mb-4 animated fadeInUp">Contact Us</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <div class="form-group animated fadeInUp">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" />
+            </div>
+            <div class="form-group animated fadeInUp">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" />
+            </div>
+            <div class="form-group animated fadeInUp">
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+            <button
+              type="submit"
+              class="btn btn-primary btn-block animated fadeInUp"
+            >
+              Send
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-light py-5 mt-5 animated fadeInUp">
+      <a class="btn" href="#top">Back to top</a>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="text-muted small mb-0">Copyright &copy; Nike 2021</p>
+          </div>
+          <div class="col-md-6 text-right">
+            <!-- Social Media Icons -->
+            <a href="#"><i class="fab fa-facebook fa-lg text-muted"></i></a>
+            <a href="#"><i class="fab fa-twitter fa-lg text-muted"></i></a>
+            <a href="#"><i class="fab fa-instagram fa-lg text-muted"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script>
+    let body = "hello i am body";
+    rajan = "hello";
+  </script>
+</html>
